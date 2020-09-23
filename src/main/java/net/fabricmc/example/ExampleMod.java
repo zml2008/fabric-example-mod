@@ -11,4 +11,8 @@ public class ExampleMod implements ModInitializer {
 
 		System.out.println("Hello Fabric world!");
 	}
+
+	public static String getMessage() {
+		return "I'm the example mod!";
+	}
 }

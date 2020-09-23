@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "modid-test",
+  "version": "${version}",
+
+  "name": "Example Test Mod",
+  "description": "This is a test mod for an example mod",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.test.ExampleTestMod"
+    ]
+  },
+  "mixins": [
+    "modid-test.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "modid": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
